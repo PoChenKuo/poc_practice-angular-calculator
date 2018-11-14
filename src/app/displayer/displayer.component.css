@@ -1,0 +1,13 @@
+.displayer {
+  width: 100%;
+  color: #fff;
+  text-align: right;
+  font-family: sans-serif;
+  margin-top: 15px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  background-color: rgba(200, 1255, 255, 0.15);
+  border-radius: 5px;
+  box-shadow: 5px 6px 9px 0px rgba(0, 0, 0, 0.2);
+}

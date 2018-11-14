@@ -1,0 +1,47 @@
+.button {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: #464242;
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: 5px 2px 10px 0px rgba(255, 255, 255, 0.1);
+  transition: box-shadow 1s;
+}
+
+.button:hover {
+  box-shadow: 5px 2px 10px 0px rgba(255, 255, 255, 0.2);
+}
+
+.button.bold-button {
+  width: 150px;
+  border-radius: 45px;
+}
+
+.button.btn-operator {
+  background-color: #ef9c27;
+}
+
+.button.btn-fun {
+  background-color: grey;
+}
+.button > .value {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button::after {
+  position: relative;
+  width: 0;
+  height: 100%;
+  content: " ";
+  display: inline-block;
+  vertical-align: middle;
+}

@@ -1,0 +1,9 @@
+app-calculator {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,4 @@
+<div class="button btn-fun" [ngClass]="{'thin-button':!key.bold, 'bold-button':key.bold, 'btn-num':key.type=='num', 'btn-operator': key.type=='operator', 'btn-fun':key.type=='fun'}"
+  (click)="keyInput( key.type, key.value)">
+  <div class="value">{{key.value}}</div>
+</div>

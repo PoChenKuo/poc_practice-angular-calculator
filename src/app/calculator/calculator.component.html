@@ -1,0 +1,6 @@
+<div class="calculate-body">
+  <app-displayer [displayValue]="api.displayValue"> </app-displayer>
+  <div class="button-set">
+    <app-key-button *ngFor="let key of keys" (keyEmit)="onKeyEmit($event)" [key]="key"></app-key-button>
+  </div>
+</div>
